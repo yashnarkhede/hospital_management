@@ -1,6 +1,7 @@
 import 'package:hospital_management/pages/home_page.dart';
 import 'package:hospital_management/widget/drawer.dart';
 import 'package:flutter/material.dart';
+import './pages/Login_page/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: Login_Page(),
     );
     drawer:
     NavDrawer();
